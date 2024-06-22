@@ -21,4 +21,6 @@ class Teacher(User):
         
 
     def teach(self):
+        pass
+    
         return self.knowledge[random.randint(0, len(self.knowledge) -1)]
